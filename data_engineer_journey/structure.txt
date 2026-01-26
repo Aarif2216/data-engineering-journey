@@ -1,0 +1,32 @@
+data-engineering-journey/
+│
+├── python_basics/
+│   ├── day01_variables.py
+│   ├── day05_lists.py
+│   └── ...
+│
+├── pandas_practice/
+│   ├── data/
+│   │   └── sales_raw.csv
+│   ├── clean_data.py
+│   └── analysis.py
+│
+├── sql/
+│   ├── schema.sql
+│   ├── insert_data.sql
+│   ├── queries.sql
+│   └── advanced_queries.sql
+│
+├── projects/
+│   ├── project_1_python/
+│   │   └── sales_cleaner.py
+│   ├── project_2_sql/
+│   │   └── sales_analysis.sql
+│   └── project_3_pipeline/
+│       ├── ingest.py
+│       ├── transform.py
+│       ├── load.py
+│       └── report.sql
+│
+├── README.md
+└── requirements.txt

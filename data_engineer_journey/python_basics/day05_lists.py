@@ -56,3 +56,19 @@ print(f"Sorted List: {sorted_list}")
 #Reversing a list
 num_list.reverse()
 print(num_list)
+
+#finding the length of a list   
+print(f"Length of numbers list: {len(numbers)}")    
+#Iterating through a list
+for item in numbers:
+    print(item)
+#List comprehension: Creating a new list by applying an expression to each item in an existing list.[expression for item in iterable if condition]
+squared_numbers = [x**2 for x in range(1, 6)]       
+print(f"Squared Numbers: {squared_numbers}")
+#finding minimum and maximum values in a list manually.
+min_value = min(num_list)
+max_value = max(num_list)
+print(f"Minimum Value: {min_value}, Maximum Value: {max_value}")
+man_min_values  = sorted(num_list)[0]
+man_max_values = sorted(num_list)[-1]
+print(f"Minimum Value: {man_min_values}, Maximum Value: {man_max_values}")
